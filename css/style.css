@@ -87,7 +87,10 @@ margin-bottom: 7px;
 
 .check{
   font-size: 12px;
- 
+}
+
+li{
+  margin-bottom: 15px ;
 }
 
 .button-box-span{
