@@ -82,11 +82,12 @@ margin-bottom: 7px;
   padding: 0 2px;
   border: 1px solid green;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .check{
   font-size: 12px;
+ 
 }
 
 .button-box-span{
@@ -94,10 +95,14 @@ margin-bottom: 7px;
   border-radius: 18px;
   font-weight: bold;
   font-size: 6px;
+  color: white;
+  /* display: block; */
 }
 
-#button-span{
+#button-blu{
   background-color: #47ADF1;
-  color: white;
- 
+}
+
+#button-violet{
+background-color: #9C72E4 ;
 }
