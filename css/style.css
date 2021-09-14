@@ -85,7 +85,19 @@ margin-bottom: 7px;
   margin-right: 8px;
 }
 
-.check{
+
+.no-check:before{
+  content: "\02717";
+  font-size: 10px;
+  color: red;
+  background-color:white;
+  padding: 2px 3px;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.check, .no-check {
   font-size: 12px;
 }
 
@@ -109,3 +121,12 @@ li{
 #button-violet{
 background-color: #9C72E4 ;
 }
+
+#button-green{
+  background-color:#64C0A9;
+}
+
+#button-orange{
+  background-color: #F29E33;
+}
+
