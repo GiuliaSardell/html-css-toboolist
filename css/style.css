@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 body{
@@ -11,25 +12,28 @@ body{
 
 header{
   background-color: white;
+  padding: 10px 20px;
 }
 
 #logo{
-  display: inline-block;
   vertical-align: middle;
 }
 
 #title{
   font-size: 30px;;
   font-weight: bold;
-  /* padding-top: 20px; */
-  line-height: 50px;
+  vertical-align: middle;
 }
 
 .container{
   background-color: white;
   width: 1000px;
-  height: 500px;
   margin: 50px auto;
+  border-radius: 5px;
+}
+
+.button{
+  border-bottom: 3px solid #F6F8F9;
 }
 
 
@@ -39,12 +43,13 @@ header{
   border-radius: 5px;
   font-weight: bold;
   font-size: 10px;
+  cursor: pointer;
 }
 
 #button1{
   background-color: #47ADF1;
   color: white;
-  border: 0;
+  border: 1px solid  #47ADF1;
 }
 
 #button2{
@@ -52,10 +57,6 @@ header{
   color: grey;
   border: 1px solid grey;
   margin: -50px;
-}
-
-.button{
-  border-bottom: 3px solid #F6F8F9;
 }
 
 
@@ -69,37 +70,38 @@ header{
 
 .title-box{
 font-weight: bold;
-font-size: 15px;
+font-size: 18px;
 color: darkslategrey;
 display: block;
 margin-bottom: 7px;
 }
 
+
 .check:before{
-  content: "\01F5F8";
+  content: "\2713";
   color: green;
-  background-color:white;
-  padding: 0 2px;
   border: 1px solid green;
-  border-radius: 50%;
-  margin-right: 8px;
 }
 
 
 .no-check:before{
   content: "\02717";
-  font-size: 10px;
   color: red;
-  background-color:white;
-  padding: 2px 3px;
   border: 1px solid red;
+}
+
+
+.no-check:before, .check:before{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  background-color:white;
   border-radius: 50%;
   margin-right: 8px;
 }
 
-.check, .no-check {
-  font-size: 12px;
-}
 
 li{
   margin-bottom: 15px ;
@@ -107,15 +109,15 @@ li{
 
 ul {
   list-style-type: none;
-  }
+}
+
 
 .button-box-span{
   padding: 5px 7px;
   border-radius: 18px;
   font-weight: bold;
-  font-size: 6px;
+  font-size: 9px;
   color: white;
-  /* display: block; */
 }
 
 #button-blu{
